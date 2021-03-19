@@ -349,9 +349,7 @@
 			// use the property name to generate the prefixed event name
 			var visProp = getHiddenProp();
 			
-			// HTML5 PageVisibility API
-			// http://www.html5rocks.com/en/tutorials/pagevisibility/intro/
-			// by Joe Marini (@joemarini)
+
 			if (visProp) {
 
 				var evtname = visProp.replace(/[H|h]idden/,'') + 'visibilitychange';
