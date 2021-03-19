@@ -45,7 +45,7 @@ a {
 }
 a:hover {
   text-decoration: none;
-  color: #dbdbdb;
+  color: #c5c5c5;
 }
 a:focus, a:active {
   outline: none;
@@ -613,6 +613,11 @@ input[type="email"] {
 
 .form-group .btn:hover{
   color: #f0f0f0;
+}
+.form-message {
+  color: rgb(248, 56, 56);
+  font-size: smaller;
+  padding: 0%;
 }
 
 @media screen and (max-width: 768px) {

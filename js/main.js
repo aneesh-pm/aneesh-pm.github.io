@@ -105,13 +105,7 @@
 		$('body').on('click', '.img-popup', function(event){
 			event.preventDefault();
 			var src = $(this).attr('href');
-			$.magnificPopup.open({
-		      items: {
-			      src: src
-			   },
-			   type: 'image'
-		  	});
-				
+	
 		});
 		
 	};
@@ -134,6 +128,7 @@
 		var name = $("#cname").val();
 		var email = $("#cemail").val();
         var message = $("#cmessage").val();
+
         $.ajax({
             type: "POST",
             url: "php/contactform-process.php",
@@ -164,7 +159,7 @@
 
     function csubmitMSG(valid, msg) {
         if (valid) {
-            var msgClasses = "h3 text-center";
+            var msgClasses = "h3 text-center tada animated";
         } else {
             var msgClasses = "h3 text-center";
         }
