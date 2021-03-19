@@ -85,7 +85,43 @@ h1, h2, h3, h4, h5, h6 {
   color: #272b34;
   background: #c89e76;
 }
+.preloader{
+  position: fixed;
+  top: 0;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  background-color: #272b34;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.artog{
+  height: 10rem;
+  width: 10rem;
+  top: 50%; 
+	left: 50%;
+  -webkit-animation: artog 1s infinite ease-in-out alternate;
+  animation: artog 1s infinite ease-in-out  alternate;
+}
 
+
+.artog {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+
+@-webkit-keyframes artog{
+  form{
+    transform: translateY(0px);
+  }
+  to{
+    transform: translateY(50%);
+  }
+}
+
+}
 #fh5co-page {
   position: relative;
   -webkit-transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);

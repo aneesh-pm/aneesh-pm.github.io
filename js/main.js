@@ -2,6 +2,19 @@
 	
 	'use strict';
 
+	
+	/* Preloader */
+	$(window).on('load', function() {
+		var preloaderFadeOutTime = 2000;
+		function hidePreloader() {
+			var preloader = $('.preloader, .artog');
+			setTimeout(function() {
+				preloader.fadeOut(preloaderFadeOutTime);
+			}, 2000);
+		}
+		hidePreloader();
+	});
+
 
 
 	// iPad and iPod detection	
