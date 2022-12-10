@@ -578,6 +578,7 @@ xclip
 	padding: 15px;
 	background: #F7FDFF;
 	margin-bottom: 30px;
+    border-radius: 25px;
 }
 .icon{
 	width: 90px;
@@ -971,6 +972,7 @@ hr.invis1 {
 .post-box{
 	-webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
 	box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    border-radius: 20px;
 	background: #F7FDFF;
 }
 
@@ -980,6 +982,7 @@ hr.invis1 {
 	padding: 0px 15px 40px 15px;
 	background: #F7FDFF;
 	text-align: left;
+    border-radius: 20px;
 	margin-top: 40px;
 }
 
